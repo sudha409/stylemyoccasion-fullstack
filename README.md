@@ -117,6 +117,11 @@ stylemyoccasion-fullstack/
     │   └── test/
     └── ...
 ```
+## Wireframes
+
+Backend Wireframe (StyleMyOccasion) – Figma : https://www.figma.com/design/KOku9jUxQLiokL6v8YIQiC/Backend-Wireframe--StyleMyOccasion-?node-id=0-1&p=f&t=zvXQNMDLkvnaR4P5-0
+
+Frontend Wireframe (StyleMyOccasion) – Figma :https://www.figma.com/site/7BINQy5pfJq9j9zHVIYRhc/Style-My-Occasion?node-id=0-1&p=f&t=Xd1n5btBE2qcDxtJ-0
 
 ## Frontend features
 
