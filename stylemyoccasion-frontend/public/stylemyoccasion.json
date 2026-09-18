@@ -1,0 +1,32 @@
+{
+    "header": "StyleMyOccasion",
+    "About":"Welcome to StyleMyOccasion — your space to explore, create, and design outfits for every special moment. Share your ideas, discover your occasion style, and let us turn your dream outfit into reality. Your thoughts and feedback are always our first priority. Each page shows stylish designs, helpful descriptions, and easy tips so users can understand what looks good and why. My goal is to make outfit selection stress‑free and enjoyable. Users can also share their own ideas or dream outfits, and we design styles based on their vision.",
+    
+    "categories": [
+        {
+            "name": "BirthDays",
+            "img": "images/homepage/birthdays.png",
+            "link": "/birthday",
+             "title" : "Birthday Outfit" 
+         
+        },
+        {
+            "name": "Weddings",
+            "img": "images/homepage/weddings.png",
+            "link": "/wedding",
+             "title" : "Weddings Outfit" 
+        },
+        {
+            "name": "OfficeMeetings",
+            "img": "images/homepage/OfficeMeetings.png",
+            "link": "/OfficeMeetings",
+             "title" : "OfficeMeetings Outfit" 
+        },
+        {
+            "name": "Partys",
+            "img": "images/homepage/partys.png",
+            "link": "/Party",
+            "title" : "Partys Outfit" 
+        }
+    ]
+}

@@ -1,0 +1,7 @@
+.party-text {
+  background: linear-gradient(90deg, #0077FF, #9D00FF, #FF007F);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+  font-weight: bold;
+}

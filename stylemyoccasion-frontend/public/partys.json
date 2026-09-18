@@ -1,0 +1,57 @@
+{
+    "header": "Partys Collection",
+    "About":"A party outfit should feel fun, confident, and full of personality. This style focuses on bright colors, trendy cuts, and eye‑catching details that make you stand out in a happy way. A stylish top, comfortable fitted pants or a chic dress, and bold accessories create a look that feels ready for celebration. Light makeup and fun shoes add the final touch. A good party outfit helps people feel relaxed, excited, and confident while enjoying the moment.",
+    "designs": 
+[
+    {
+        "name": "partys1",
+        "img": "images/party/party1.png",
+        "link": "/OccassionStyle",
+        "description" : "A partywear outfit should feel bold, confident, and full of celebration. This style focuses on eye‑catching colors, modern silhouettes, and elegant details that make you stand out in any gathering. A chic dress or a stylish top paired with fitted trousers creates a balanced look that is both fashionable and comfortable. Shimmering accessories, neat makeup, and trendy heels add the perfect finishing touch. A good partywear outfit helps you feel vibrant, expressive, and ready to enjoy the night with confidence.",
+        "title" : "PW101S"
+    },
+    {
+        "name": "partys2",
+        "img": "images/party/party2.png",
+        "link": "/OccassionStyle",
+         "description" : "A partywear outfit should feel bold, confident, and full of celebration. This style focuses on eye‑catching colors, modern silhouettes, and elegant details that make you stand out in any gathering. A chic dress or a stylish top paired with fitted trousers creates a balanced look that is both fashionable and comfortable. Shimmering accessories, neat makeup, and trendy heels add the perfect finishing touch. A good partywear outfit helps you feel vibrant, expressive, and ready to enjoy the night with confidence. ",
+         "title" : "PM102S"
+    },
+    {
+        "name": "partys3",
+        "img": "images/party/party3.png",
+        "link": "/OccassionStyle",
+         "description" : " A partywear outfit should feel bold, confident, and full of celebration. This style focuses on eye‑catching colors, modern silhouettes, and elegant details that make you stand out in any gathering. A chic dress or a stylish top paired with fitted trousers creates a balanced look that is both fashionable and comfortable. Shimmering accessories, neat makeup, and trendy heels add the perfect finishing touch. A good partywear outfit helps you feel vibrant, expressive, and ready to enjoy the night with confidence..",
+         "title" : "PM103S"
+    },
+    {
+        "name": "partys4",
+        "img": "images/party/party4.png",
+        "link": "/OccassionStyle",
+         "description" : " A partywear outfit should feel bold, confident, and full of celebration. This style focuses on eye‑catching colors, modern silhouettes, and elegant details that make you stand out in any gathering. A chic dress or a stylish top paired with fitted trousers creates a balanced look that is both fashionable and comfortable. Shimmering accessories, neat makeup, and trendy heels add the perfect finishing touch. A good partywear outfit helps you feel vibrant, expressive, and ready to enjoy the night with confidence.",
+         "title" : "PW104S"
+    },
+    {
+        "name": "partys5",
+        "img": "images/party/party5.png",
+        "link": "/OccassionStyle",
+         "description" : " A partywear outfit should feel bold, confident, and full of celebration. This style focuses on eye‑catching colors, modern silhouettes, and elegant details that make you stand out in any gathering. A chic dress or a stylish top paired with fitted trousers creates a balanced look that is both fashionable and comfortable. Shimmering accessories, neat makeup, and trendy heels add the perfect finishing touch. A good partywear outfit helps you feel vibrant, expressive, and ready to enjoy the night with confidence.",
+         "title" : "PW105S"
+    },
+    {
+        "name": "partys6",
+        "img": "images/party/party6.png",
+        "link": "/OccassionStyle",
+         "description" : " A partywear outfit should feel bold, confident, and full of celebration. This style focuses on eye‑catching colors, modern silhouettes, and elegant details that make you stand out in any gathering. A chic dress or a stylish top paired with fitted trousers creates a balanced look that is both fashionable and comfortable. Shimmering accessories, neat makeup, and trendy heels add the perfect finishing touch. A good partywear outfit helps you feel vibrant, expressive, and ready to enjoy the night with confidence.",
+         "title" : "PW106S"
+    },  
+    {
+        "name": "partys7",
+        "img": "images/party/party7.png",
+        "link": "/OccassionStyle",
+         "description" : " A partywear outfit should feel bold, confident, and full of celebration. This style focuses on eye‑catching colors, modern silhouettes, and elegant details that make you stand out in any gathering. A chic dress or a stylish top paired with fitted trousers creates a balanced look that is both fashionable and comfortable. Shimmering accessories, neat makeup, and trendy heels add the perfect finishing touch. A good partywear outfit helps you feel vibrant, expressive, and ready to enjoy the night with confidence.",
+         "title" : "PW107S"
+    }
+]
+
+}

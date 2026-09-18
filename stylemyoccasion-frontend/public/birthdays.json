@@ -1,0 +1,57 @@
+{
+    "header": "Birthdays Collection",
+    "About":"A birthday outfit should feel fun, bright, and full of celebration. This design focuses on soft colors, playful patterns, and comfortable pieces that make the birthday person feel special.The look blends style with joy, using light fabrics, cheerful accessories, and a touch of sparkle to create a perfect birthday vibe,A good outfit does more than make someone look nice — it actually helps people feel better, act more confidently, and express who they are",
+    "designs": 
+[
+    {
+        "name": "BirthDays1",
+        "img": "images/birthday/birthday1.png",
+        "link": "/OccassionStyle",
+        "description" : "This trendy overfit men’s shirt and pant set is a perfect choice for a relaxed birthday celebration. The lightweight fabric and breezy fit keep you comfortable throughout the event, while the modern style adds a fresh, fashionable look. Whether the birthday is at home, outdoors, or at a casual venue, this 2‑piece outfit brings a cool summer vibe that feels effortless and stylish. Its simple design makes it easy to pair with clean sneakers or sandals, creating a confident and comfortable birthday outfit.",
+        "title" : "MB101S"
+    },
+    {
+        "name": "BirthDays2",
+        "img": "images/birthday/birthday2.png",
+        "link": "/OccassionStyle",
+         "description" : "This trendy overfit men’s shirt and pant set is a perfect choice for a relaxed birthday celebration. The lightweight fabric and breezy fit keep you comfortable throughout the event, while the modern style adds a fresh, fashionable look. Whether the birthday is at home, outdoors, or at a casual venue, this 2‑piece outfit brings a cool summer vibe that feels effortless and stylish. Its simple design makes it easy to pair with clean sneakers or sandals, creating a confident and comfortable birthday outfit.",
+         "title" : "MB102S"
+    },
+    {
+        "name": "BirthDays3",
+        "img": "images/birthday/birthday3.png",
+        "link": "/OccassionStyle",
+         "description" : " This red floor‑length Indo‑Western style creates a stunning and graceful birthday look. The delicate zari embroidery along the bodice and hem adds a touch of luxury, while the sheer full sleeves bring softness and elegance. The draped dupatta‑style sash falling from one shoulder gives the outfit a modern, festive charm. Paired with gold heels and statement jhumka earrings, this outfit blends tradition and style beautifully, making it perfect for a memorable birthday celebration. ",
+         "title" :"WB101S"
+    },
+    {
+        "name": "BirthDays4",
+        "img": "images/birthday/birthday4.png",
+        "link": "/OccassionStyle",
+         "description" : " This red floor‑length traditional gown creates a stunning and graceful birthday look. The delicate zari embroidery along the bodice and hem adds a touch of luxury, while the sheer full sleeves bring softness and elegance. The draped dupatta‑style sash falling from one shoulder gives the outfit a modern, festive charm. Paired with gold heels and statement jhumka earrings, this outfit blends tradition and style beautifully, making it perfect for a memorable birthday celebration. ",
+         "title" :"WB102S"
+    },
+    {
+        "name": "BirthDays5",
+        "img": "images/birthday/birthday5.png",
+        "link": "/OccassionStyle",
+         "description" : " Celebrate your special day with a stylish and unique outfit.Choose colors, accessories, and styles that match your personality.",
+         "title" :"WB104S"
+    },
+    {
+        "name": "BirthDays6",
+        "img": "images/birthday/birthday6.png",
+        "link": "/OccassionStyle",
+         "description" : " This floor‑length Indo‑Western gown creates a stunning and graceful birthday look. The delicate zari embroidery along the bodice and hem adds a touch of luxury, while the sheer full sleeves bring softness and elegance. The draped dupatta‑style sash falling from one shoulder gives the outfit a modern, festive charm. Paired with gold heels and statement jhumka earrings, this outfit blends tradition and style beautifully, making it perfect for a memorable birthday celebration.",
+         "title" :"WB103S"
+    },
+    {
+        "name": "BirthDays7",
+        "img": "images/birthday/birthday7.png",
+        "link": "/OccassionStyle",
+         "description" : " This floor‑length Indo‑Western gown creates a stunning and graceful birthday look. The delicate zari embroidery along the bodice and hem adds a touch of luxury, while the sheer full sleeves bring softness and elegance. The draped dupatta‑style sash falling from one shoulder gives the outfit a modern, festive charm. Paired with gold heels and statement jhumka earrings, this outfit blends tradition and style beautifully, making it perfect for a memorable birthday celebration.",
+         "title" :"WB105S"
+    }
+]
+
+}

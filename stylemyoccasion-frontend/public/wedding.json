@@ -1,0 +1,57 @@
+{
+    "header": "Wedding Collection",
+    "About":"StyleMyOccasion helps people discover the perfect outfit for any celebration. We educate users with simple tips, clear suggestions, and easy style guides that match each event. Whether it’s a birthday, wedding, or casual party, we help you choose outfits that make you feel confident and comfortable. If you have a dream outfit, tell us — we can help you bring it to life.",
+    "designs": 
+[
+    {
+        "name": "wedding1",
+        "img": "images/wedding/wedding1.png",
+        "link": "/OccassionStyle",
+        "description" : "A traditional wedding outfit brings elegance, culture, and celebration together. A richly embroidered lehenga or saree in warm festive colors like red, maroon, or gold creates a timeless bridal look. Soft fabrics, detailed zari work, and matching jewelry add a royal touch. This style helps the bride feel confident, graceful, and beautifully connected to tradition on her special day." ,
+          "title" : "MW101S"     
+    },
+    {
+        "name": "wedding2",
+        "img": "images/wedding/wedding2.png",
+        "link": "/OccassionStyle",
+         "description" : "wedding outfit blends modern style with traditional charm. Flowing gowns, draped jackets, or fusion lehengas create a fresh, stylish look that feels both comfortable and festive. Light embroidery, soft colors, and elegant accessories make the outfit perfect for brides or guests who want a contemporary yet cultural wedding style.",
+          "title" : "MW102S"
+},
+{
+        "name": "wedding3",
+        "img": "images/wedding/wedding3.png",
+        "link": "/OccassionStyle",
+         "description" : " A traditional wedding outfit brings elegance, culture, and celebration together. A richly embroidered lehenga or saree in warm festive colors like red, maroon, or gold creates a timeless bridal look. Soft fabrics, detailed zari work, and matching jewelry add a royal touch. This style helps the bride feel confident, graceful, and beautifully connected to tradition on her special day..",
+          "title" : "MW103S"
+    },
+    {
+        "name": "wedding4",
+        "img": "images/wedding/wedding4.png",
+        "link": "/OccassionStyle",
+         "description" : "A traditional wedding outfit brings elegance, culture, and celebration together. A richly embroidered lehenga or saree in warm festive colors like red, maroon, or gold creates a timeless bridal look. Soft fabrics, detailed zari work, and matching jewelry add a royal touch. This style helps the bride feel confident, graceful, and beautifully connected to tradition on her special day.",
+          "title" : "WW104S"
+    },
+    {
+        "name": "wedding5",
+        "img": "images/wedding/wedding5.png",
+        "link": "/OccassionStyle",
+         "description" : " A traditional wedding outfit brings elegance, culture, and celebration together. A richly embroidered lehenga or saree in warm festive colors like red, maroon, or gold creates a timeless bridal look. Soft fabrics, detailed zari work, and matching jewelry add a royal touch. This style helps the bride feel confident, graceful, and beautifully connected to tradition on her special day.",
+          "title" : "MW105S"
+    },
+    {
+        "name": "wedding6",
+        "img": "images/wedding/wedding6.png",
+        "link": "/OccassionStyle",
+         "description" : "A traditional wedding outfit brings elegance, culture, and celebration together. A richly embroidered lehenga or saree in warm festive colors like red, maroon, or gold creates a timeless bridal look. Soft fabrics, detailed zari work, and matching jewelry add a royal touch. This style helps the bride feel confident, graceful, and beautifully connected to tradition on her special day.",
+          "title" : "WW106S"
+    },
+    {
+    "name": "wedding7",
+        "img": "images/wedding/wedding7.png",
+        "link": "/OccassionStyle",
+         "description" : " A traditional wedding outfit brings elegance, culture, and celebration together. A richly embroidered lehenga or saree in warm festive colors like red, maroon, or gold creates a timeless bridal look. Soft fabrics, detailed zari work, and matching jewelry add a royal touch. This style helps the bride feel confident, graceful, and beautifully connected to tradition on her special day.",
+          "title" : "MW107S"
+    }
+]
+
+}

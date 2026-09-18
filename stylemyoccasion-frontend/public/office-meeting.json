@@ -1,0 +1,58 @@
+{
+    "header": "OfficeMettings Collection",
+    "About":"An office‑meeting outfit should look professional, clean, and confident. This style focuses on simple colors, neat lines, and comfortable pieces that help you feel ready to speak and participate. A well‑fitted blazer, a soft blouse, and straight‑cut pants create a polished look without feeling too formal. Light accessories and closed‑toe shoes keep the outfit smart and tidy. This kind of outfit helps people feel prepared, organized, and confident during any meeting.",
+    "designs": 
+[
+    {
+        "name": "OfficeMettings1",
+        "img": "images/officemeeting/OfficeMettings1.png",
+        "link": "/OccassionStyle",
+        "description" : "This chic and minimal office outfit creates a clean, confident look that works beautifully in conference rooms and professional settings. The long‑sleeve blue blouse adds a crisp, polished feel, while the high‑waisted navy wide‑leg trousers bring structure and elegance. The combination is comfortable yet refined, allowing easy movement without losing professionalism. The contrast of white and navy keeps the outfit timeless and smart, making it ideal for presentations, team discussions, or client meetings. With simple accessories and neat shoes, this outfit helps you appear focused, organized, and ready to lead the conversation.",
+        "title" : "OW101S"
+    },
+    {
+        "name": "OfficeMettings2",
+        "img": "images/officemeeting/officemeeting2.png",
+        "link": "/OccassionStyle",
+         "description" : "An office outfit should look neat, professional, and comfortable for a full workday. This style focuses on clean lines, soft colors, and well‑fitted pieces that help you feel confident and organized. A tailored shirt or blouse paired with straight‑cut pants or a modest skirt creates a polished look without feeling too formal. Light accessories and simple shoes keep the outfit smart and practical. A good office outfit helps people feel prepared, focused, and ready to handle meetings, tasks, and daily work with confidence.",
+         "title" : "OW102S"
+    },
+    {
+        "name": "OfficeMettings3",
+        "img": "images/officemeeting/officemeeting3.png",
+        "link": "/OccassionStyle",
+         "description" : "This chic and minimal office outfit creates a clean, confident look that works beautifully in conference rooms and professional settings. The long‑sleeve white blouse adds a crisp, polished feel, while the high‑waisted navy wide‑leg trousers bring structure and elegance. The combination is comfortable yet refined, allowing easy movement without losing professionalism. The contrast of white and navy keeps the outfit timeless and smart, making it ideal for presentations, team discussions, or client meetings. With simple accessories and neat shoes, this outfit helps you appear focused, organized, and ready to lead the conversation.",
+         "title" : "OW103S"
+    },
+
+     {
+        "name": "OfficeMettings4",
+        "img": "images/officemeeting/officemeeting4.png",
+        "link": "/OccassionStyle",
+         "description" : "This chic and minimal office outfit creates a clean, confident look that works beautifully in conference rooms and professional settings. The long‑sleeve white blouse adds a crisp, polished feel, while the high‑waisted navy wide‑leg trousers bring structure and elegance. The combination is comfortable yet refined, allowing easy movement without losing professionalism. The contrast of white and navy keeps the outfit timeless and smart, making it ideal for presentations, team discussions, or client meetings. With simple accessories and neat shoes, this outfit helps you appear focused, organized, and ready to lead the conversation.",
+         "title" : "OW104S"
+    },
+    {
+        "name": "officemettings5",
+        "img": "images/officemeeting/officemeeting5.png",
+        "link": "/OccassionStyle",
+         "description" : "This chic and minimal office outfit creates a clean, confident look that works beautifully in conference rooms and professional settings. The long‑sleeve white blouse adds a crisp, polished feel, while the high‑waisted navy wide‑leg trousers bring structure and elegance. The combination is comfortable yet refined, allowing easy movement without losing professionalism. The contrast of white and navy keeps the outfit timeless and smart, making it ideal for presentations, team discussions, or client meetings. With simple accessories and neat shoes, this outfit helps you appear focused, organized, and ready to lead the conversation.",
+         "title" : "OM105S"
+    },
+    {
+        "name": "OfficeMettings6",
+        "img": "images/officemeeting/Officemeeting6.png",
+        "link": "/OccassionStyle",
+         "description" : "This chic and minimal office outfit creates a clean, confident look that works beautifully in conference rooms and professional settings. The long‑sleeve white blouse adds a crisp, polished feel, while the high‑waisted navy wide‑leg trousers bring structure and elegance. The combination is comfortable yet refined, allowing easy movement without losing professionalism. The contrast of white and navy keeps the outfit timeless and smart, making it ideal for presentations, team discussions, or client meetings. With simple accessories and neat shoes, this outfit helps you appear focused, organized, and ready to lead the conversation.",
+         "title" : "OW106S"
+    },
+    {
+        "name": "Officemettings7",
+        "img": "images/officemeeting/Officemeeting7.png",
+        "link": "/OccassionStyle",
+         "description" : "This chic and minimal office outfit creates a clean, confident look that works beautifully in conference rooms and professional settings. The  short sleeve blouse adds a crisp, polished feel, while the high‑waisted navy wide‑leg trousers bring structure and elegance. The combination is comfortable yet refined, allowing easy movement without losing professionalism. The contrast of white and navy keeps the outfit timeless and smart, making it ideal for presentations, team discussions, or client meetings. With simple accessories and neat shoes, this outfit helps you appear focused, organized, and ready to lead the conversation.",
+         "title" : "OW107S"
+    }
+]
+
+}

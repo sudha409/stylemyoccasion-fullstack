@@ -1,0 +1,8 @@
+.birthday-text {
+  background: linear-gradient(90deg, #FF6B6B, #FFD93D, #6BCB77, #4D96FF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+  font-weight: bold;
+  
+}

@@ -1,0 +1,171 @@
+header,
+footer {
+ background: linear-gradient(
+  
+    90deg,
+    rgb(221, 160, 160),
+    rgb(209, 181, 128),
+    rgb(167, 167, 80),
+    rgb(137, 197, 137),
+    rgb(148, 148, 214),
+    rgb(186, 148, 212),
+    rgb(224, 170, 224)
+  );
+  color: white;
+  text-align: center;
+    padding: 15px;
+}
+
+
+.headerLogo{
+   display: flex;
+    align-items : center;
+    justify-content: center;   
+    gap: 10px;           
+  }
+
+.four-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+
+/* iPad */
+@media (max-width: 1024px) {
+  .four-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .four-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.content {
+  width: 90%;
+  margin: 30px auto;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  border: 2px solid #333;
+  box-shadow: 0 0 55px rgba(0, 0, 0, 0.2);
+}
+
+
+body {
+  background-color: #c3c7cf;
+  margin: 0;
+
+}
+
+
+
+nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+
+
+
+.homeContent {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+
+
+}
+
+.homeImg {
+  display: inline-block;
+  width: 300px;
+  height: 300px;
+  margin-inline: 20px;
+}
+
+.occasion-box {
+  display: inline-block;
+  text-align: center;
+  margin: 20px;
+  cursor: pointer;
+}
+
+.occasion-img {
+  width: 200px;
+   height: auto;
+  border-radius: 10px;
+}
+
+.occasion-label {
+  margin-top: 8px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+
+.rainbow-text {
+  background: linear-gradient(
+    90deg,
+    red,
+    orange,
+    yellow,
+    green,
+    blue,
+    indigo,
+    violet
+  );
+  display: inline-block;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+}
+
+
+.office-title {
+  background: linear-gradient(90deg, #5f1a28, #2ad04e);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+   display: inline-block;
+}
+
+.homepage-header{
+  background: linear-gradient(90deg, #d49433);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+  font-weight: bold;
+    font-size: 48px;
+  font-weight: 700;
+}
+
+
+@keyframes sparkle {
+  from { text-shadow: 0 0 5px #9dbd2b, 0 0 10px #aee023; }
+  to { text-shadow: 0 0 15px #a4af0b, 0 0 25px #b8a921; }
+}
+
+.right-links {
+    display: flex;
+    align-items : center;
+    justify-content: end;   
+    gap: 10px; 
+    color: white;
+    font-weight: bold;
+      margin: 0 10px;
+}
+
+.logout-btn {
+  display: flex;
+  background: transparent;
+  border: none;
+  color: white;
+  font-weight: bold;
+   display: inline-block;
+}
