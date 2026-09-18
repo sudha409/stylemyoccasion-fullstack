@@ -25,6 +25,7 @@ public class User {
 
     private String role;
 
+
     public User() {
     }
 
@@ -75,4 +76,6 @@ public class User {
     public void setRole(String role) {
         this.role = role;
     }
+
+
 }

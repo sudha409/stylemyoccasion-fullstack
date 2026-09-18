@@ -35,4 +35,16 @@ public class UserController {
         }
         return ResponseEntity.ok(response);
     }
+
+
+    @PostMapping("/password-reset")
+    public ResponseEntity<?> resetPassword(@RequestBody Map<String, String> body) {
+        String email = body.get("email");
+        String password = body.get("password");
+        boolean ok = userService.resetPassword(email, password);
+        if (!ok) {
+            return ResponseEntity.status(400).body(Map.of("message", "Invalid or expired token"));
+        }
+        return ResponseEntity.ok(Map.of("message", "Password reset successful"));
+    }
 }

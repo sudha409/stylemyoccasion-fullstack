@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { useNavigate,useLocation } from "react-router";
+import { useNavigate,useLocation, Link } from "react-router";
 
 function Login() {
 const location = useLocation();
@@ -66,7 +66,9 @@ const from = location.state?.from || "/";
  <div className="form-row">
         <button type="submit">Login</button></div>
       </form>
-      </div>
+    <div style={{marginTop:12}}><Link to="/reset-password" style={{fontSize: '20px' ,color: 'blue' }}><span>Reset password?</span></Link></div>
+   </div>
+
     </div>
   );
 }

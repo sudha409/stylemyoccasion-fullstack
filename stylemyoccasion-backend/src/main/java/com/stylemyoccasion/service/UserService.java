@@ -47,4 +47,14 @@ public class UserService {
     public List<User> signupDetails() {
         return userRepository.findAll();
     }
+
+
+    // Reset password using token; returns true on success
+    public boolean resetPassword(String email, String newPassword) {
+        User user = userRepository.findByEmail(email);
+        if (user == null) return false;
+        user.setPassword(passwordEncoder.encode(newPassword));
+        userRepository.save(user);
+        return true;
+    }
 }
