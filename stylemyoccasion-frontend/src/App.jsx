@@ -1,5 +1,5 @@
 import React from 'react';
-import { Routes, Route, Link } from 'react-router';
+import {Routes, Route, Link} from 'react-router';
 import HomePage from './Components/HomePage';
 import AboutUs from './Components/AboutUs';
 import Feedback from './Components/FeedBack';
@@ -16,30 +16,31 @@ import ResetPassword from './Components/ResetPassword';
 
 
 function App() {
-  return (
+    return (
 
-    <div> 
-     <Header/>  
-    <div className="content">
-      <Routes>
-            
-            <Route path="/" element={<HomePage />} />
-             <Route path="/login" element={<Login />} />
-            <Route path="/signup" element={<Signup />} />
-            <Route path="/reset-password" element={<ResetPassword />} />
-            <Route path="/aboutUs" element={<AboutUs/>} />
-            <Route path="/feedback"   element={<Feedback />} />
-           <Route path="/birthday" element={<Birthday />} />
-           <Route path="/wedding" element={<Wedding/>}/>
-           <Route path="/OfficeMeetings" element={<OfficeMeetings/>}/>
-           <Route path="/Party" element={<Party/>}/>
-           <Route path="/OccassionStyle" element={<OccassionStyle/>}/>
-      </Routes>
-          </div>
-  <Footer/>
+        <div>
+            <Header/>
+            <div className="content">
+                <Routes>
 
-      </div>
-    
-);
+                    <Route path="/" element={<HomePage/>}/>
+                    <Route path="/login" element={<Login/>}/>
+                    <Route path="/signup" element={<Signup/>}/>
+                    <Route path="/reset-password" element={<ResetPassword/>}/>
+                    <Route path="/aboutUs" element={<AboutUs/>}/>
+                    <Route path="/feedback" element={<Feedback/>}/>
+                    <Route path="/birthday" element={<Birthday/>}/>
+                    <Route path="/wedding" element={<Wedding/>}/>
+                    <Route path="/OfficeMeetings" element={<OfficeMeetings/>}/>
+                    <Route path="/Party" element={<Party/>}/>
+                    <Route path="/OccassionStyle" element={<OccassionStyle/>}/>
+                </Routes>
+            </div>
+            <Footer/>
+
+        </div>
+
+    );
 }
+
 export default App;

@@ -1,10 +1,10 @@
-function thankyou(props){
+function thankyou(props) {
 
-return (
-<div>
-     <h3>Thank you { props.userName  }  for your feedback!</h3>
-     </div>
-)
+    return (
+        <div>
+            <h3>Thank you {props.userName} for your feedback!</h3>
+        </div>
+    )
 
 }
 

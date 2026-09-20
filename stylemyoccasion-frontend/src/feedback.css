@@ -1,90 +1,90 @@
 .three-column-layout {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 20px;
-  padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
 }
 
 .column {
-  background: #fff;
-  padding: 15px;
-  overflow-y: auto;
-  border-radius: 10px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-   overflow: visible;
+    background: #fff;
+    padding: 15px;
+    overflow-y: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    overflow: visible;
 }
 
 .layout-image {
-  width: 100%;
-  height: auto;
-  object-fit: contain;
-  border-radius: 10px;
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    border-radius: 10px;
 }
 
 
 .form-row {
-  margin-bottom: 12px;
+    margin-bottom: 12px;
 }
 
 .form-row label {
-  display: inline-block;
-  width: 100px;
-  /* keeps labels aligned */
-  font-weight: 500;
+    display: inline-block;
+    width: 100px;
+    /* keeps labels aligned */
+    font-weight: 500;
 }
 
 .form-row input {
-  padding: 6px;
-  width: 200px;
+    padding: 6px;
+    width: 200px;
 }
 
 .form-row textarea {
-  padding: 6px;
-  width: 200px;
+    padding: 6px;
+    width: 200px;
 }
 
 .form-row button {
-  width: auto;
-  padding: 2px;
+    width: auto;
+    padding: 2px;
 
 }
 
 
 /* iPad */
 @media (max-width: 1024px) {
-  .three-column-layout {
-    grid-template-columns: repeat(2, 1fr);
-  }
+    .three-column-layout {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
 
 /* Mobile */
 @media (max-width: 768px) {
-  .three-column-layout {
-    grid-template-columns: 1fr;
-  }
+    .three-column-layout {
+        grid-template-columns: 1fr;
+    }
 }
 
 .layout-image {
-  width: 100%;
-  height: auto;
-  object-fit: contain;
-  border-radius: 10px;
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    border-radius: 10px;
 }
 
 
 form input,
 form textarea {
-  width: 100%;
-  padding: 10px;
-  font-size: 16px;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
 
-  border: 2px solid #333;   
-  border-radius: 6px;         
-  outline: none;              
-  box-sizing: border-box;
+    border: 2px solid #333;
+    border-radius: 6px;
+    outline: none;
+    box-sizing: border-box;
 }
 
 
 .office-title {
-  color: #006D77;
+    color: #006D77;
 }

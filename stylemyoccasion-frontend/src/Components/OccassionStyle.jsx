@@ -1,21 +1,21 @@
 import BirthDayimage from '../assets/sudha.jpg'
 import '../occasionstyle.css';
-import { Link,useLocation } from 'react-router';
+import {Link, useLocation} from 'react-router';
 
 
 function occassionStyle() {
 
-  const location = useLocation();
-  const { item } = location.state;
+    const location = useLocation();
+    const {item} = location.state;
 
-    
+
     return (
 
         <div>
             <div className="occasion-container">
 
                 <div className="imageStyle">
-                    <img src={item.img} alt="Birthday" className="occasion-img" />
+                    <img src={item.img} alt="Birthday" className="occasion-img"/>
 
                 </div>
 
@@ -27,16 +27,20 @@ function occassionStyle() {
                     </p>
 
                     <div className="descriptionStyle-buttons">
-                        <button className="btn-addtocart" onClick={() => alert("Future implementation!")}  >Add To Cart</button>
-                        <Link to="/feedback"  state={{ itemStyle : item  }}  key={ item.name } ><button className="btn-feedback"   >Feedback</button></Link> 
-                      
+                        <button className="btn-addtocart" onClick={() => alert("Future implementation!")}>Add To Cart
+                        </button>
+                        <Link to="/feedback" state={{itemStyle: item}} key={item.name}>
+                            <button className="btn-feedback">Feedback</button>
+                        </Link>
+
                     </div>
                 </div>
-  
+
             </div>
 
 
         </div>
     )
 }
+
 export default occassionStyle;

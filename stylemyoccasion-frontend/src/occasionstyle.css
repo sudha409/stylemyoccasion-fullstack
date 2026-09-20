@@ -1,97 +1,98 @@
 .occasion-container {
-  display: flex;
-  align-items: center;
-  gap: 30px;
-  padding: 20px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding: 20px;
 }
 
 .imageStyle img {
-  width: 300px;
-  border-radius: 10px;
+    width: 300px;
+    border-radius: 10px;
 }
 
 .description {
-  max-width: 400px;
+    max-width: 400px;
 }
 
 .descriptionStyle-buttons {
-  margin-top: 20px;
-  display: flex;
-  gap: 15px;
+    margin-top: 20px;
+    display: flex;
+    gap: 15px;
 }
 
 .btn-addtocart {
-  padding: 10px 20px;
-  border: none;
-  border-radius: 6px;
-  cursor: pointer;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
 }
 
 .btn-feedback {
-  padding: 10px 20px;
-  background-color: #333;
-  color: white;
-  border: none;
-  border-radius: 6px;
-  cursor: pointer;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
 }
 
 /* Ipad  */
 @media (max-width: 1024px) {
-  .occasion-container {
-    flex-direction: column;
-    text-align: center;
-  }
+    .occasion-container {
+        flex-direction: column;
+        text-align: center;
+    }
 
-  .imageStyle img {
-    width: 250px;
-  }
+    .imageStyle img {
+        width: 250px;
+    }
 
-  .description {
-    max-width: 90%;
-  }
+    .description {
+        max-width: 90%;
+    }
 
-  .descriptionStyle-buttons {
-    justify-content: center;
-  }
+    .descriptionStyle-buttons {
+        justify-content: center;
+    }
 }
 
 
 /* Mobile  */
 @media (max-width: 768px) {
-  .occasion-container {
-    flex-direction: column;
-    gap: 20px;
-    padding: 15px;
-  }
+    .occasion-container {
+        flex-direction: column;
+        gap: 20px;
+        padding: 15px;
+    }
 
-  .imageStyle img {
-    width: 100%;
-    max-width: 220px;
-    height: auto;
-  }
+    .imageStyle img {
+        width: 100%;
+        max-width: 220px;
+        height: auto;
+    }
 
-  .description {
-    max-width: 100%;
-    font-size: 16px;
-  }
+    .description {
+        max-width: 100%;
+        font-size: 16px;
+    }
 
-  .descriptionStyle-buttons {
-    flex-direction: column;
-    gap: 10px;
-    width: 100%;
-  }
+    .descriptionStyle-buttons {
+        flex-direction: column;
+        gap: 10px;
+        width: 100%;
+    }
 
-  .btn-addtocart,
-  .btn-feedback {
-    width: 100%;
-    font-size: 16px;
-  }
-  .occassionStyle.header{
-  background: rgb(255, 0, 21);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  font-weight: bold;
-   display: inline-block;
-}
+    .btn-addtocart,
+    .btn-feedback {
+        width: 100%;
+        font-size: 16px;
+    }
+
+    .occassionStyle.header {
+        background: rgb(255, 0, 21);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-weight: bold;
+        display: inline-block;
+    }
 }
