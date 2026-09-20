@@ -27,7 +27,7 @@ function occassionStyle() {
                     </p>
 
                     <div className="descriptionStyle-buttons">
-                        <button className="btn-addtocart">Add To Cart</button>
+                        <button className="btn-addtocart" onClick={() => alert("Future implementation!")}  >Add To Cart</button>
                         <Link to="/feedback"  state={{ itemStyle : item  }}  key={ item.name } ><button className="btn-feedback"   >Feedback</button></Link> 
                       
                     </div>

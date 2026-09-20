@@ -18,18 +18,17 @@ const itemStyle = location.state?.itemStyle;
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
   const [submitted, setSubmitted] = useState(false);
+    const [isLoggedIn, setIsLoggedIn] = useState(false);
 
   const title = itemStyle && itemStyle.title ? itemStyle.title : null;
-;
-
 
   useEffect(() => {
-    const user = JSON.parse(localStorage.getItem("user"));
-    
-setName(user ? user.user.name :"");
-setEmail(user ?user.user.email:"");
-
-  }, []);
+      const   user = JSON.parse(localStorage.getItem("user"));
+ if(user && user.user) {
+     setIsLoggedIn(true);
+     setName(user.user.name);
+     setEmail(user.user.email);
+ } }, []);
 
 
 
@@ -113,7 +112,7 @@ fetch("http://localhost:8080/api/feedback", {
                   type="text"
                   value={name}
                   onChange={(ev) => setName(ev.target.value)}
-                   disabled={Boolean(name)}
+                   disabled={Boolean(isLoggedIn)}
                   required
                 />
               </div>
@@ -124,7 +123,7 @@ fetch("http://localhost:8080/api/feedback", {
                   type="email"
                   value={email}
                   onChange={(ev) => setEmail(ev.target.value)}
-                     disabled={Boolean(email)}
+                     disabled={Boolean(isLoggedIn)}
                   required
                 />
               </div>
