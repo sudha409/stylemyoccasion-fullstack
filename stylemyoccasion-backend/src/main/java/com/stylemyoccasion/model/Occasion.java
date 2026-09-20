@@ -3,6 +3,7 @@ package com.stylemyoccasion.model;
 import jakarta.persistence.*;
 
 import static org.springframework.data.jpa.domain.AbstractPersistable_.id;
+
 @Entity
 @Table(name = "occasions")
 public class Occasion {

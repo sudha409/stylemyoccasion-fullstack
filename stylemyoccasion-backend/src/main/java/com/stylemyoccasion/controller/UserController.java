@@ -22,11 +22,13 @@ public class UserController {
         User response = userService.signup(request);
         return ResponseEntity.ok(response);
     }
+
     @GetMapping
     public ResponseEntity<List<User>> signupDetails() {
         List<User> response = userService.signupDetails();
         return ResponseEntity.ok(response);
     }
+
     @PostMapping("/login")
     public ResponseEntity<?> login(@RequestBody User request) {
         Map<String, Object> response = userService.login(request);

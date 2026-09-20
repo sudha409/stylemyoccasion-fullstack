@@ -14,7 +14,6 @@ public class OutfitsService {
     private OutfitsRepository outfitsRepository;
 
 
-
     public ResponseEntity<List<Outfits>> createOutfits(List<Outfits> request) {
         List<Outfits> savedOutfits = outfitsRepository.saveAll(request);
         return ResponseEntity.ok(savedOutfits);

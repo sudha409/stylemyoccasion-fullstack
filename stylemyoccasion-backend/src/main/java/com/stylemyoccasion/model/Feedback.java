@@ -21,11 +21,11 @@ public class Feedback {
 
 
     @ManyToOne(optional = true)
-    @JoinColumn(name = "title" , nullable = true)
+    @JoinColumn(name = "title", nullable = true)
     private Outfits outfits;
 
     @ManyToOne(optional = true)
-    @JoinColumn(name = "user_id" , nullable = true)
+    @JoinColumn(name = "user_id", nullable = true)
     private User user;
 
     private String comments;

@@ -7,6 +7,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
+
 @Service
 public class OccasionService {
     @Autowired
@@ -44,7 +45,7 @@ public class OccasionService {
 
     public List<Occasion> createOccasions(List<Occasion> occasions) {
 
-        return  occasionRepository.saveAll(occasions);
+        return occasionRepository.saveAll(occasions);
     }
 }
 
