@@ -12,7 +12,7 @@ export default function ResetPassword() {
     const submit = (e) => {
         e.preventDefault();
         fetch("http://localhost:8080/api/users/password-reset", {
-            method: "POST",
+            method: "PUT",
             headers: {"Content-Type": "application/json"},
             body: JSON.stringify({email, password})
         })

@@ -39,7 +39,7 @@ public class UserController {
     }
 
 
-    @PostMapping("/password-reset")
+    @PutMapping("/password-reset")
     public ResponseEntity<?> resetPassword(@RequestBody Map<String, String> body) {
         String email = body.get("email");
         String password = body.get("password");
