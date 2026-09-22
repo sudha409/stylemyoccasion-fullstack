@@ -1,3 +1,23 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #c3c7cf;
+    margin: 0;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
 header,
 footer {
     background: linear-gradient(
@@ -15,12 +35,12 @@ footer {
     padding: 15px;
 }
 
-
 .headerLogo {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 10px;
+    flex-wrap: wrap;
 }
 
 .four-grid {
@@ -29,23 +49,8 @@ footer {
     gap: 20px;
 }
 
-
-/* iPad */
-@media (max-width: 1024px) {
-    .four-grid {
-        grid-template-columns: repeat(2, 1fr);
-    }
-}
-
-/* Mobile */
-@media (max-width: 768px) {
-    .four-grid {
-        grid-template-columns: 1fr;
-    }
-}
-
 .content {
-    width: 90%;
+    max-width: 90%;
     margin: 30px auto;
     background-color: white;
     padding: 20px;
@@ -54,13 +59,13 @@ footer {
     box-shadow: 0 0 55px rgba(0, 0, 0, 0.2);
 }
 
-
-body {
-    background-color: #c3c7cf;
-    margin: 0;
-
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 8px;
 }
-
 
 nav a {
     color: white;
@@ -69,13 +74,11 @@ nav a {
     font-weight: bold;
 }
 
-
 .homeContent {
     max-width: 1200px;
+    width: 100%;
     margin: 0 auto;
     padding: 20px;
-
-
 }
 
 .homeImg {
@@ -104,7 +107,6 @@ nav a {
     font-weight: 500;
 }
 
-
 .rainbow-text {
     background: linear-gradient(
             90deg,
@@ -122,7 +124,6 @@ nav a {
     font-weight: bold;
 }
 
-
 .office-title {
     background: linear-gradient(90deg, #5f1a28, #2ad04e);
     -webkit-background-clip: text;
@@ -136,11 +137,9 @@ nav a {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     display: inline-block;
-    font-weight: bold;
     font-size: 48px;
     font-weight: 700;
 }
-
 
 @keyframes sparkle {
     from {
@@ -155,6 +154,7 @@ nav a {
     display: flex;
     align-items: center;
     justify-content: end;
+    flex-wrap: wrap;
     gap: 10px;
     color: white;
     font-weight: bold;
@@ -162,10 +162,59 @@ nav a {
 }
 
 .logout-btn {
-    display: flex;
+    display: inline-block;
     background: transparent;
     border: none;
     color: white;
     font-weight: bold;
-    display: inline-block;
+}
+
+/* iPad */
+@media (max-width: 1024px) {
+    .four-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+    header,
+    footer {
+        padding: 12px 10px;
+    }
+
+    nav {
+        gap: 6px;
+    }
+
+    nav a {
+        margin: 0 8px;
+        font-size: 14px;
+    }
+
+    .right-links {
+        justify-content: center;
+        margin-top: 8px;
+    }
+
+    .homeContent {
+        padding: 10px;
+    }
+
+    .homepage-header {
+        font-size: 32px;
+    }
+
+    .content {
+        max-width: 95%;
+        padding: 12px;
+    }
+
+    .four-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .occasion-img {
+        width: 150px;
+    }
 }
