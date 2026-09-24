@@ -31,6 +31,8 @@ function Signup() {
             .catch((err) => console.error(err));
     };
 
+
+
     return (
         <div className="about-container">
             <h1 className="about-title">Welcome to StyleMyOccation</h1>
