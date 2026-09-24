@@ -416,6 +416,7 @@ Suggested workflow:
 
 ## Project summary
 
+
 Style My Occasion combines a creative fashion experience with a simple, practical backend-driven architecture. It is an excellent example of a full-stack web project that blends:
 - modern React frontend UX
 - structured Spring Boot backend APIs
